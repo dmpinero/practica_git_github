@@ -34,6 +34,13 @@ Sí causó conflicto, porque el contenido del archivo git-nuestro.md en las rama
 styled y htmlify es distinto en las mismas líneas del archivo.
 
 - El merge del paso 21, ¿Causó algún conflicto? ¿Por qué?
+No causó conflicto porque la rama styled estaba un commit más
+adelantado que la rama master, por lo que pudo hacerse un fast-fordward y
+mover el puntero HEAD y el puntero de la rama master desde el commit de la
+rama master al commit de la rama styled.
+
+
+
 - ¿Qué comando o comandos utilizaste en el paso 25?
 - El merge del paso 26, ¿Podría ser fast forward? ¿Por qué?
 - ¿Qué comando o comandos utilizaste en el paso 27?
